@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Don't Mess with ME
+</title>
+</head>
+<body>
+<div id="everything">
+<h2>What Can Feelings Do?</h2>
+
+<p>I want to learn how to hide my feelings</p>
+<br>
+<p><b>Well, Well You are in luck. Touch this <span style="color:red;"><i>mysterious</I></span> button and no-one will see your crying face.</b></p>
+
+<img id="ok" title="Sad" src= "cry.jpeg">
+
+
+<button type="button" onclick="document.getElementById('ok').style.display='none';this.style.display = 'none'" >Click Me!</button>
+<p>Instead of hiding your face, you can show them this happy face and make them grieve that they never got to see you down.</p>
+
+<img id="better" title="Happy" src= "cry.jpeg">
+
+<button type="button" onclick="document.getElementById('better').src='happy.jpeg';this.style.display = 'none'" >Click Me!</button>
+
+<p>Honestly, I don't care about feelings, I will write a poem about what happened to you after you mess with me.</p>
+
+<pre id="poem" style="display: none;">
+If you mess with me you will get this hand.
+So you better watch where you stand.
+And when I ask you to do something it is not a plea, it is a command.
+When you walk or talk think of my reaction beforehand.
+</pre>
+
+<img id="fight" style="display: none;" src="fight.jpeg">
+
+<button type="button" onclick="document.getElementById('poem').style.display='block';
+document.getElementById('fight').style.display='block'">See Poem</button>
+
+<script src="JSfirst.js"></script>
+
+<button type="button" onclick="deleteEverything()"> Hide Everything</button>
+</div>
+</body>
+</html> 
